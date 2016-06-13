@@ -1,2 +1,12 @@
 # Homepage: www.lois.com
-test github pages
+
+    Blog
+    Lab
+
+Usage
+
+# install
+npm install
+
+# http-server
+npm run dev
