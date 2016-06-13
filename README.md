@@ -1,2 +1,2 @@
-# loisnlois.github.io
+# Homepage: www.lois.com
 test github pages
