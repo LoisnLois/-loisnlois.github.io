@@ -70,7 +70,12 @@
   <button type="button" onclick="myfunction()">try it</button>
   <button type="button" onclick="Mycrush()">千万不要点</button>
   </body>
-  <script> 
+<script> 
+  //我们使用关键字var来声明变量
+  /*
+  JavaScript 数据类型:字符串，数字，数组，对象，Null、Undefined
+  无论哪种数值类型都是用var来声明
+  **/
   var pi=3.14;
   var name="Bill Gates";
   var answer='yes i am';
@@ -87,5 +92,9 @@
   for( var i = 0 ; i < 3 ; i++ ){
       document.write(arr[i]+"<br/>");
    }
-  </script>
+   //javascript对象(花括号，键值对，逗号分隔)，以及它的两种寻址方式
+   var jscripteObject = {"one"："Tommy"，"two":"Jamie"};
+   document.write(jscripteObject.one);
+   document.write(jscripteObject["two"]);
+</script>
 </html>
