@@ -20,6 +20,10 @@
         for( var i = 0 ; i < 3 ; i++ ){
           document.write(arr[i]+"<br/>");
         }
+      function redit(){
+        window.location.href="mockHtml.html";
+        
+      }
         
       }
 
