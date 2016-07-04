@@ -43,12 +43,13 @@
 			height: 30%;
 			border-top: 1px solid #CCC;
 			background-color: white;
+			color: grey;
 			margin: 0px;
 			padding: 0px;
 
 		}
 		.titledesc{
-			color: #cdcdcd;
+			color: #7CB447;
 			margin-top: 30px;
 			font-family:"CharlisSILTalic",微软雅黑;
 
@@ -57,8 +58,27 @@
 			width: 66.8%;
 		}
 		#head-navi{
-			background-color: grey;
-			height: 35px;	
+			list-style: none;
+			margin: 0;
+			text-align: center;
+			background-color: black;
+			height: 30px;	
+			line-height: 30px;
+		}
+		#head-navi li{
+			display: inline-block;
+			color: white;
+			width: 80px;
+			height: 30px;
+			background-color: black;
+		}
+		#head-navi li a{
+			text-decoration: none;
+			color: white;
+			font-family:"CharlisSILTalic",微软雅黑;
+			width: 100px;
+			height: 30px;
+			background-color: black;
 		}
 	</style>
 </head>
@@ -69,14 +89,16 @@
 				<img src="./img/title.png" Class="titleimg">
 				<img src="./img/titleText.png" class="titleimg">
 				<div id="pre-nav" class="titleimg">
-					<h1><span class="titledesc">C</span> <span class="titledesc">S</span> <span class="titledesc">S</span> PLAY</h1>
-					<P id="titleHeader"><small>DOING IT WITH STYLE</small></P>
+					<h1><span class="titledesc">K</span> <span class="titledesc">O</span> <span class="titledesc">O</span> Things</h1>
+					<P id="titleHeader">Me Before You</P>
 				</div>
 			</div>
-			<div id="head-navi">
-				<span>1</span>
-				<span>1</span>
-				<span>1</span>
+			<div >
+				<ul id="head-navi">
+					<li id="home"><a href="">HOME</a></li>
+					<li id="demos"><a href="">DEMOS</a></li>
+					<li id="bonus"><a href="">BONUS</a></li>
+				</ul>
 			</div>
 		</div>
 	</div>
