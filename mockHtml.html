@@ -3,6 +3,13 @@
 	<meta http-equiv="content-Type" content="text/html; charset=utf-8">
 	<title>Lois's Page</title>
 	<script type="text/javascript">
+		var home = document.getElementById('home');
+		function nacolorLight(){
+			home.style.background-color="red";
+		}
+		function nacolorfade(){
+
+		}
 
 	</script>
 	<style type="text/css">
@@ -61,23 +68,28 @@
 			list-style: none;
 			margin: 0;
 			text-align: center;
-			background-color: black;
+			background-color: black;x
 			height: 30px;	
 			line-height: 30px;
 		}
 		#head-navi li{
 			display: inline-block;
-			color: white;
-			width: 80px;
+			color: white;			
 			height: 30px;
-			background-color: black;
+			margin-right: 30px;
 		}
 		#head-navi li a{
+			display: block;
 			text-decoration: none;
 			color: white;
 			font-family:"CharlisSILTalic",微软雅黑;
-			width: 100px;
-			height: 30px;
+			height: 27px;
+			background-color: black;
+		}
+		.lightUp{
+			background-color: #7CB447;
+		}
+		.fadeAway{
 			background-color: black;
 		}
 	</style>
@@ -95,9 +107,9 @@
 			</div>
 			<div >
 				<ul id="head-navi">
-					<li id="home"><a href="">HOME</a></li>
-					<li id="demos"><a href="">DEMOS</a></li>
-					<li id="bonus"><a href="">BONUS</a></li>
+					<li id="home" onmouseover="this.className='lightUp'" onmouseout="this.className='fadeAway'"><a href="">HOME</a></li>
+					<li id="demos" onmouseover="this.className='lightUp'" onmouseout="this.className='fadeAway'"><a href="">DEMOS</a></li>
+					<li id="bonus" onmouseover="this.className='lightUp'" onmouseout="this.className='fadeAway'"><a href="">BONUS</a></li>
 				</ul>
 			</div>
 		</div>
