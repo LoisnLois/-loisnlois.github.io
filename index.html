@@ -3,18 +3,11 @@
 	<meta http-equiv="content-Type" content="text/html; charset=utf-8">
 	<title>Lois's Page</title>
 	<script type="text/javascript">
-		var home = document.getElementById('home');
-		function nacolorLight(){
-			home.style.background-color="red";
-		}
-		function nacolorfade(){
-
-		}
-
 	</script>
 	<link rel="stylesheet" type="text/css" href="./myCss.css">
 </head>
 <body>
+	<!--这里是头部 -->
 	<div id="head">
 		<div class="wrapper">
 			<div id="mainLogo" >
@@ -25,17 +18,43 @@
 					<P id="titleHeader">Me Before You</P>
 				</div>
 			</div>
-			<div >
+			<section >
 				<ul id="head-navi">
 					<li id="home" onmouseover="this.className='lightUp'" onmouseout="this.className='fadeAway'"><a href="">HOME</a></li>
 					<li id="demos" onmouseover="this.className='lightUp'" onmouseout="this.className='fadeAway'"><a href="./mockHtml.html">Demos</a></li>
 					<li id="bonus" onmouseover="this.className='lightUp'" onmouseout="this.className='fadeAway'"><a href="">Bonus</a></li>
 					<li id="bonus" onmouseover="this.className='lightUp'" onmouseout="this.className='fadeAway'"><a href="">Questions</a></li>
 				</ul>
-			</div>
+			</section>
 		</div>
 	</div>
-	<div id="container"></div>
-	<div id="footer"></div>
+
+	<!--这里是内容部分 -->
+	<div id="container" align="center">
+		<br/>
+		<div id="cont-mid">
+			<div id="cot-left-part">
+				<h2>
+					<a href="">BOXES</a> <span class="break">></span>
+					Three curved and one square corner (no extra markup)
+				</h2>
+				<h5 class="date">
+					Date : 1st January 2007
+				</h5>	
+				<h4 class="desc">
+					For all browsers
+				</h4>
+			</div>
+			<div id="cot-right-part">
+				234
+			</div>			
+		</div>
+
+	</div>
+
+	<!--这里是尾部-->
+	<div id="footer">
+
+	</div>
 </body>
 </html>
