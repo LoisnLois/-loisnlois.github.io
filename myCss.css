@@ -302,44 +302,24 @@ h1{
 	line-height: 50px;
 	margin: 5px;
 	float: left;
-	background-color: #FDF5E6;
+	color: #7f7f9c;
+	background-color: #E6E6FA;
 	border-radius: 5px;
 	box-shadow: 2px 2px 10px #888;
-}
-
-
-#phto0{
+	animation: rollanit 3s linear 2s infinite alternate;
 	transition: width 2s,height 2s,line-height 2s,transform 2s;
 	-webkit-transition: width 2s,height 2s,line-height 2s,transform 2s;
 	-o-transition:width 2s,height 2s,line-height 2s,transform 2s;
 }
 
-#phto1{
-	transition: width 2s,height 2s,line-height 2s,transform 2s;
-	-webkit-transition: width 2s,height 2s,line-height 2s,transform 2s;
-	-o-transition:width 2s,height 2s,line-height 2s,transform 2s;
-}
-
-#phto2{
-	transition: width 2s,height 2s,line-height 2s,transform 2s;
-	-webkit-transition: width 2s,height 2s,line-height 2s,transform 2s;
-	-o-transition:width 2s,height 2s,line-height 2s,transform 2s;
-}
-
-#phto0:hover{
+.phtos:hover{
 	width:150px;
 	height: 150px;
 	line-height: 150px;
 }
 
-#phto1:hover{
-	width:150px;
-	height: 150px;
-	line-height: 150px;
-}
 
-#phto2:hover{
-	width:150px;
-	height: 150px;
-	line-height: 150px;
+@keyframes rollanit{
+	0% {transform:rotate(0deg); -webkit-transform:rotate(0deg); -moz-transform:rotate(0deg);margin-left:0px;background: #E6E6FA;}
+	100% {transform:rotate(360deg); -webkit-transform:rotate(360deg); -moz-transform:rotate(360deg);margin-left:30px;background: #FFF0F5;}
 }
