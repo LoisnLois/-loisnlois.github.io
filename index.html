@@ -19,6 +19,8 @@
 		// 	phto2.style.visibility = "hidden";
 		// }
 	</script>
+	<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.8.0.js">
+	</script>
 	<link rel="stylesheet" type="text/css" href="./myCss.css">
 </head>
 <body>
@@ -62,47 +64,74 @@
 				<br/>
 				<br/>
 				
-				<div class="boxs1">					
-					<div>
-						<!--左上-->
-						<dl class="top1">
-							<dt>there is awsome!!</dt>
-							<dd>
-								<p>
-								This is the place to put your descriptive text.  
-								</p>
-							</dd>
-						</dl>
-						<!--左上-->
-						<dl class="top2">
-							<dt>taylor swift</dt>
-							<dd>
-								<p>
-								there is awsome!!there is awsome!!
-								</p>
-							</dd>
-						</dl>
-					</div>
+				<div class="boxs1">	
 					<div >
 						<!--左上-->
-						<dl class="bottom1">
-							<dt>three curved corners</dt>
+						<dl class="topX">
+							<dt>罗辑思维</dt>
 							<dd>
 								<p>
-								The three curved corners and one square corner box requires no extra markup
+									罗辑思维，目前较大的互联网知识社群，包括微信公众订阅号、知识类脱口秀视频及音频、会员体系、微商城、百度贴吧、微信群等具体互动形式，主要服务于80、90后有"爱智求真”强烈需求的群体。<br/>
+									罗辑思维》的口号是“有种、有趣、有料”，倡导独立、理性的思考，推崇自由主义与互联网思维，凝聚爱智求真、积极上进、自由阳光、人格健全的年轻人，是国内微信营销的典范。<br/>
+									2012年底，罗振宇与独立新媒创始人申音合作打造知识型视频脱口秀《罗辑思维》。半年内，由一款互联网自媒体视频产品，逐渐延伸成长为全新的互联网社群品牌。<br/>
 								</p>
 							</dd>
 						</dl>
 						<!--左上-->
-						<dl class="bottom2">
-							<dt>just a standard</dt>
+						<dl class="topX">
+							<dt>Safe & Sound</dt>
 							<dd>
 								<p>
-								just a standard definition list with three background images.
+									《Safe & Sound》是美国女歌手泰勒·斯威夫特与独立民谣乐队The Civil Wars合作演唱的一首乡乐民谣歌曲[1]  ，词曲由泰勒、约翰·保罗·怀特、乔伊·威廉姆斯创作。该歌曲作为电影《饥饿游戏》的宣传单曲被发布于2011年12月26日，收录在该影片的原声带专辑《The Hunger Games：Songs from District 12 and Beyond》中。<br/>
+									I remember tears streaming down your face when I said, "I'll never let you go"<br/>
+									When all those shadows almost killed your light<br/>
+									I remember you said, "Don't leave me here alone"<br/>
+									But all that's dead and gone and passed tonight<br/>
+									Just close your eyes, the sun is going down<br/>
+									You'll be alright, no one can hurt you now<br/>
+									Come morning light, you and I'll be safe and sound<br/>
+									Don't you dare look out your window darling, everything's on fire<br/>
+									The war outside our door keeps raging on<br/>
+									Hold onto this lullaby, even when the music's gone, gone<br/>
+									Just close your eyes, the sun is going down<br/>
+									You'll be alright, no one can hurt you now<br/>
+									Come morning light, you and I'll be safe and sound<br/>
+									Just close your eyes, you'll be alright<br/>
+									Come morning light, you and I'll be safe and sound[5]  <br/>
+								</p>
+							</dd>
+						</dl>
+					</div>				
+					<div>
+						<!--左上-->
+						<dl class="topX">
+							<dt>text-overflow:ellipsis的巧妙运用</dt>
+							<dd>
+								<p>
+									1.div1：默认状态。超出文本默认显示在div外<br/>
+									2.div2：text-overflow:ellipsis; 使用text-overflow以...代理超出文本<br/>
+									3.div3：如果文本换行被设置为默认（white-space：normal），不会出现超出文本被替代的情况。所以如果文本是块状结构，不能使用text-overflow替换超出文本<br/>
+									4.div4：text-overflow:clip; 文本在内边框处被剪切<br/>
+									5.div5：text-overflow:"###"; 自定义超出文本替换的字符串<br/>									
+								</p>
+							</dd>
+						</dl>
+						<!--左上-->
+						<dl class="topX">
+							<dt>CSS3中text-overflow</dt>
+							<dd>
+								<p>
+									*注意：overflow: hidden; text-overflow:ellipsis;white-space:nowrap;一定要一起用<br/>
+									1.一定要给容器定义宽度.<br/>
+									2.如果少了overflow: hidden;文字会横向撑到容易的外面<br/>
+									3.如果少了white-space:nowrap;文字会把容器的高度往下撑；即使你定义了高度，省略号也不会出现，多余的文字会被裁切掉<br/>
+									4.如果少了text-overflow:ellipsis;多余的文字会被裁切掉，就相当于你这样定义text-overflow:clip.<br/>
+									如果容器是table，当文字内容过多时，不换行，而是出现...<br/>
 								</p>
 							</dd>
 						</dl>
 					</div>
+					
 				</div>
 
 				<br/>
