@@ -229,7 +229,7 @@ h1{
 
 @keyframes rollanit{
 	0% {transform:rotate(0deg); -webkit-transform:rotate(0deg); -moz-transform:rotate(0deg);background: #FFF0F5;}
-	25% {transform:rotate(60deg); -webkit-transform:rotate(60deg); -moz-transform:rotate(60deg);padding:4px;background: #FAF0E6;font-size: 28;}
+	25% {transform:rotate(60deg); -webkit-transform:rotate(60deg); -moz-transform:rotate(60deg);padding:4px;background: #FAF0E6;font-size: 20;}
 	70% {transform:rotate(0deg); -webkit-transform:rotate(0deg); -moz-transform:rotate(0deg);padding:2px;background: #FFE4E1;}
 	100% {transform:rotate(-60deg); -webkit-transform:rotate(-60deg); -moz-transform:rotate(-60deg);padding:0px;}
 }
