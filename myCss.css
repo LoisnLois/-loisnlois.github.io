@@ -101,7 +101,7 @@ h1{
 }
 
 #cot-left-part{
-	width: 68%;
+	width: 70%;
 	height: 1000px;
 	float: left;
 	background-color:#FFFAF0;
@@ -111,10 +111,13 @@ h1{
 	font-family:"CharlisSILTalic",微软雅黑;
 }
 
-#cot-right-part{
-	width: 30%;
+#cot-center-part{
 	float: left;
-	padding-left: 10px;
+}
+
+#cot-right-part{
+	width: 29%;
+	float: left;
 	font-family:"CharlisSILTalic",微软雅黑;
 
 }
