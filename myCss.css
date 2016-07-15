@@ -172,16 +172,12 @@ h1{
 
 }
 
-
 .topX dt{
 	height: 50px;
 	line-height: 50px;
 	background-color: #7f7f9c;
 	border-top-left-radius:25px;
 	border-top-right-radius:25px;
-}
-.topX dd{
-	text-transform: capitalize;	
 }
 
 .topX dd p{
@@ -191,7 +187,7 @@ h1{
 
 .topX dd p:first-letter{
 	display: block;
-	margin:5px 0 0 5px;
+	margin:2px 0 0 2px;
 	float:left;
 	color: #7CB447;
 	font-size: 2em;
