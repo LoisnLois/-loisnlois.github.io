@@ -1,136 +1,319 @@
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-	<meta http-equiv="content-Type" content="text/html; charset=utf-8">
-	<title>Lois's Page</title>
-	<script type="text/javascript">
+body{
+	margin: 0;
+	padding: 0;
+}
 
-		// function spreadOut(){
-		// 	var phto1 = document.getElementById("phto1");
-		// 	var phto2 = document.getElementById("phto2");
-		// 	phto1.style.visibility = "visible";
-		// 	phto2.style.visibility = "visible";
+div.wrapper{
+	width: 100%;
+	height: 90px;
+	vertical-align: top;
 
-		// }
+}
+#mainLogo{
+	background-color: #FFF;
+	width: 53%;
+	height: 100%;
+	margin:auto auto;	
+}
+.titleimg{
+	height: 90px; 
+	margin: 0px;
+	padding: 0px;
+	float: left;
+}
+h1{
+	margin: 3px;
+	width: auto;
+	height: 60%;
+	line-height: 75px;
+	text-align: center;	
+	background-color: white;
+			
+}
+#title1{
+	height: 90px;
+	line-height: 120px;
+	font-size: 30;
+	font-family: "Arial";
+	font-style: italic;
 
-		// function spreadIn(){
-		// 	var phto1 = document.getElementById("phto1");
-		// 	var phto2 = document.getElementById("phto2");
-		// 	phto1.style.visibility = "hidden";
-		// 	phto2.style.visibility = "hidden";
-		// }
-	</script>
-	<link rel="stylesheet" type="text/css" href="./myCss.css">
-</head>
-<body>
-	<!--这里是头部 -->
-	<div id="head">
-		<div class="wrapper">
-			<div id="mainLogo" >
-				<img src="./img/title.png" Class="titleimg">
-				<span id="title1" Class="titleimg">chu~koo &nbsp;</span>
-				<div id="pre-nav" class="titleimg">
-					<h1><span class="titledesc">K</span> <span class="titledesc">O</span> <span class="titledesc">O</span> Things</h1>
-					<P id="titleHeader">Me Before You</P>
-				</div>
-			</div>
-			<section >
-				<ul id="head-navi">
-					<li id="home" onmouseover="this.className='lightUp'" onmouseout="this.className='fadeAway'"><a href="">HOME</a></li>
-					<li id="demos" onmouseover="this.className='lightUp'" onmouseout="this.className='fadeAway'"><a href="./mockHtml.html">Demos</a></li>
-					<li id="bonus" onmouseover="this.className='lightUp'" onmouseout="this.className='fadeAway'"><a href="">Bonus</a></li>
-					<li id="bonus" onmouseover="this.className='lightUp'" onmouseout="this.className='fadeAway'"><a href="">Questions</a></li>
-				</ul>
-			</section>
-		</div>
-	</div>
+}
 
-	<!--这里是内容部分 -->
-	<div id="container" align="center">
-		<br/>
-		<div id="cont-mid">
-			<div id="cot-left-part">
-				<h2>
-					<a href="">BOXES</a> <span class="break">></span>
-					Three curved and one square corner (no extra markup)
-				</h2>
-				<h5 class="date">
-					Date : 1st January 2007
-				</h5>	
-				<h4 class="desc">
-					For all browsers
-				</h4>
-				<br/>
-				<br/>
-				
-				<div class="boxs1">					
-					<div>
-						<!--左上-->
-						<dl class="top1">
-							<dt>there is awsome!!</dt>
-							<dd>
-								<p>
-								This is the place to put your descriptive text.  
-								</p>
-							</dd>
-						</dl>
-						<!--左上-->
-						<dl class="top2">
-							<dt>taylor swift</dt>
-							<dd>
-								<p>
-								there is awsome!!there is awsome!!
-								</p>
-							</dd>
-						</dl>
-					</div>
-					<div >
-						<!--左上-->
-						<dl class="bottom1">
-							<dt>three curved corners</dt>
-							<dd>
-								<p>
-								The three curved corners and one square corner box requires no extra markup
-								</p>
-							</dd>
-						</dl>
-						<!--左上-->
-						<dl class="bottom2">
-							<dt>just a standard</dt>
-							<dd>
-								<p>
-								just a standard definition list with three background images.
-								</p>
-							</dd>
-						</dl>
-					</div>
-				</div>
+#titleHeader{
+	text-align: center;
+	height: 30%;
+	border-top: 1px solid #CCC;
+	background-color: white;
+	color: grey;
+	margin: 0px;
+	padding: 0px;
 
-				<br/>
-				<br/>
-				<br/>
+}
+.titledesc{
+	color: #7CB447;
+	margin-top: 30px;
+	font-family:"CharlisSILTalic",微软雅黑;
 
-			</div>
-			<div id="cot-right-part">
-				<!--<div class="phtos" id="phto0" onmouseover="spreadOut()" onmouseout="spreadIn()">
-					123
-				</div> -->
-				<div class="phtos" id="phto0">
-					hey
-				</div>
-				<div class="phtos" id="phto1">
-					you
-				</div>
-				<div class="phtos" id="phto2">
-					!!
-				</div>
-			</div>			
-		</div>
+}
+#pre-nav{
+	width: 50%;
+}
+#head-navi{
+	list-style: none;
+	margin: 0;
+	text-align: center;
+	background-color: black;
+	height: 30px;	
+	line-height: 30px;
+	border-radius: 8px;
+	-moz-border-radius:25px;
+	box-shadow:2px 5px 8px #888;
+}
+#head-navi li{
+	display: inline-block;
+	color: white;			
+	height: 30px;
+	margin-right: 30px;
+}
+#head-navi li a{
+	display: block;
+	text-decoration: none;
+	color: white;
+	font-family:"CharlisSILTalic",微软雅黑;
+	height: 27px;
+	background-color: black;
+}
+.lightUp{
+	background-color: #7CB447;
+}
+.fadeAway{
+	background-color: black;
+}
 
-	</div>
+#container{
+	margin:30 auto;
+}
 
-	<!--这里是尾部-->
-	<div id="footer">
+#cont-mid{
+	width: 60%;
+	margin: auto auto;
+	padding: 0;
+}
 
-	</div>
-</body>
-</html>
+#cot-left-part{
+	width: 68%;
+	height: 1000px;
+	float: left;
+	background-color:#FFFAF0;
+	padding-left: 5px;
+	box-shadow: 0px 0px 5px #888;
+	border-radius: 25px;
+	font-family:"CharlisSILTalic",微软雅黑;
+}
+
+#cot-right-part{
+	width: 30%;
+	float: left;
+	padding-left: 10px;
+	font-family:"CharlisSILTalic",微软雅黑;
+
+}
+#cot-left-part h2{	
+	text-align: left;
+	padding-top: 10;
+	margin: 0;
+}
+
+#cot-left-part h2 a{
+	text-decoration:none;
+	color:#7CB447;
+}
+.break{
+	font-size: 14;
+}
+.date{	
+	padding: 0;
+	margin: 0;
+	color: #006699;
+	text-align: left;
+	font-style: none;
+	font-family: "Comic Sans MS";
+}
+.desc{
+	padding: 0;
+	margin: 0;
+	text-align: left;
+}
+
+.top1{
+	float:left;
+	width:45%;
+	margin: 5px;
+	height: 200px;
+	border-top-left-radius: 25px;
+	border-top-right-radius: 25px;
+	border-bottom-left-radius:25px;
+	border-bottom-right-radius: 25px;
+	background-color: #eee;
+
+	transition: width 2s,height 1s,line-height 1s,ease 2s;
+	-webkit-transition: width 2s,height 1s,line-height 1s,ease 2s;
+	-o-transition: width 2s,height 1s,line-height 1s,ease 2s;
+
+}
+
+.top1:hover{
+	box-shadow: 2px 2px 5px #888;
+	height: 420px;
+}
+
+.top1 dt{
+	height: 50px;
+	line-height: 50px;
+	background-color: #7f7f9c;
+	border-top-left-radius:25px;
+	border-top-right-radius:25px;
+	margin: 0px;
+	padding-bottom:0px; 
+}
+
+.top2{
+	background-color: #ADD8E6;
+	float:left;
+	width:45%;
+	margin: 5px;
+	height: 200px;
+	border-top-left-radius: 25px;
+	border-top-right-radius: 25px;
+	border-bottom-left-radius:25px;
+    border-bottom-right-radius:25px;
+	background-color: #eee;
+
+	transition: width 2s,height 2s,line-height 2s,transform 2s;
+	-webkit-transition: width 2s,height 2s,line-height 2s,transform 2s;
+	-o-transition:width 2s,height 2s,line-height 2s,transform 2s;
+
+}
+
+.top2:hover{
+	box-shadow: 2px 2px 5px #888;
+	height: 420px;
+}
+
+.top2 dt{
+	height: 50px;
+	line-height: 50px;
+	background-color: #7f7f9c;
+	border-top-left-radius:25px;
+	border-top-right-radius:25px;
+	margin: 0px;
+}
+
+.bottom1{
+	background-color: #ADD8E6;
+	float:left;
+	width:45%;
+	margin: 5px;
+	height: 200px;	
+	border-radius:25px;
+	background-color: #eee;
+
+	transition: width 2s,height 2s,line-height 2s,transform 2s;
+	-webkit-transition: width 2s,height 2s,line-height 2s,transform 2s;
+	-o-transition:width 2s,height 2s,line-height 2s,transform 2s;
+
+}
+
+.bottom1:hover{
+	box-shadow: 2px 2px 5px #888;
+	height: 420px;
+}
+
+.bottom1 dt{
+	height: 50px;
+	line-height: 50px;
+	background-color: #7f7f9c;
+	border-top-left-radius:25px;
+	border-top-right-radius:25px;
+	margin: 0px;
+}
+
+.bottom2{
+	background-color: #ADD8E6;
+	float:left;
+	width:45%;
+	margin: 5px;
+	height: 200px;
+	border-radius:25px;
+	background-color: #eee;
+	transition: width 2s,height 2s,line-height 2s,transform 2s;
+	-webkit-transition: width 2s,height 2s,line-height 2s,transform 2s;
+	-o-transition:width 2s,height 2s,line-height 2s,transform 2s;
+
+}
+
+.bottom2:hover{
+	box-shadow: 2px 2px 5px #888;
+	height: 420px;
+}
+
+
+.bottom2 dt{
+	height: 50px;
+	line-height: 50px;
+	background-color: #7f7f9c;
+	border-top-left-radius:25px;
+	border-top-right-radius:25px;
+	margin: 0px;
+}
+
+.bottom2 dd p{
+	height: 150px;
+	text-overflow:emllipsis;
+}
+
+.boxs1{
+	margin-left: 20px;
+}
+.boxs1 dt{
+	color: white;
+	text-overflow:ellipsis;
+}
+.boxs1 dd{
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	text-align: left;
+	margin: 0px;
+	
+}
+
+.phtos{
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	margin: 5px;
+	float: left;
+	color: #7f7f9c;
+	border-radius: 15px;	
+	background: #FFF0F5;
+	box-shadow: 2px 2px 10px #888;
+	animation: rollanit 2s linear 2s infinite alternate;
+	transition: width 2s,height 2s,line-height 2s,transform 2s;
+	-webkit-transition: width 2s,height 2s,line-height 2s,transform 2s;
+	-o-transition:width 2s,height 2s,line-height 2s,transform 2s;
+}
+
+.phtos:hover{
+	width:150px;
+	height: 150px;
+	line-height: 150px;
+}
+
+
+@keyframes rollanit{
+	0% {transform:rotate(0deg); -webkit-transform:rotate(0deg); -moz-transform:rotate(0deg);background: #FFF0F5;}
+	25% {transform:rotate(60deg); -webkit-transform:rotate(60deg); -moz-transform:rotate(60deg);padding:4px;background: #FAF0E6;}
+	70% {transform:rotate(0deg); -webkit-transform:rotate(0deg); -moz-transform:rotate(0deg);padding:2px;background: #FFE4E1;}
+	100% {transform:rotate(-60deg); -webkit-transform:rotate(-60deg); -moz-transform:rotate(-60deg);padding:0px;}
+}
