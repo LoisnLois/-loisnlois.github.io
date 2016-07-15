@@ -151,7 +151,7 @@ h1{
 .topX{
 	float:left;
 	width:45%;
-	margin: 10px;	
+	margin: 5px;	
 	height: 210px;
 	border-top-left-radius: 25px;
 	border-top-right-radius: 25px;
@@ -159,8 +159,8 @@ h1{
 	border-bottom-right-radius: 25px;
 	background-color: #eee;
 	overflow:hidden;
-    text-overflow:ellipsis;
-    white-space:break-word;
+    	text-overflow:ellipsis;
+    	white-space:break-word;
 	transition: height 2s,ease 1s;
 	-webkit-transition: height 2s,ease 1s;
 	-o-transition: height 2s,ease 1s;
