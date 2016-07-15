@@ -169,7 +169,7 @@ h1{
 .topX:hover{
 	box-shadow: 2px 2px 5px #888;
 	height: 420px;
-	
+
 }
 
 
@@ -185,9 +185,16 @@ h1{
 }
 
 .topX dd p{
-
 	font-size: 14;
 	margin: 5px;
+}
+
+.topX dd p:first-letter{
+	display: block;
+	margin:5px 0 0 5px;
+	float:left;
+	color: #7CB447;
+	font-size: 2em;
 }
 
 .boxs1{
