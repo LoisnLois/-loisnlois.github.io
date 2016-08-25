@@ -1,24 +1,80 @@
 *{
 	margin: 0;
 	padding: 0;
+    font-family: "\5FAE\8F6F\96C5\9ED1",Arial,HELVETICA,"微软雅黑";
+}
+div {
+    display: block;
+}
+a{
+    text-decoration: none;
+    cursor:auto;
 }
 
 .nav_top_header{
+    background-color: #f7f6fa;
+    display: block;
+    overflow: hidden;
 	width: 100%;
 	height: auto;
+    padding: 15px;
+    border-bottom: 1px solid #dfdede;
 }
 
-a{
-	text-decoration: none;
-}
-
-.nav_top_width{
+.nav_top_header .nav_top_width{
 	width: 1000px;
 	height: auto;
-	margin: 0 auto;
+	margin: 0 auto;    
+    background: green;
+
 }
 
-.nav_top_width .headphone{
+.nav_top_header .nav_top_width .logo_tu{
+    float: left;
+}
+
+.nav_top_header .nav_top_width .logo_tu img{
+    width: 180px;
+    height: 70px;
+}
+
+.nav_top_header .nav_top_width .search_bar{
+    float: left;
+    width: 460px;
+    height: 40px;
+    margin: 15px 0 0 40px;
+    vertical-align: top;
+}
+
+.nav_top_header .nav_top_width .search_bar span{
+    float: left;
+}
+
+.nav_top_header .nav_top_width .search_bar .txt input{
+    border: 1px solid #c3c3c3;
+    outline: none;    
+    padding: 9px 10px 9px 10px;
+    height: 40px;
+    width: 365px;
+    border-radius: 5px 0 0 5px;
+    webkit-border-radius: 5px 0 0 5px;
+    -moz-border-radius: 5px 0 0 5px;
+    -ms-border-radius: 5px 0 0 5px;
+    -o-border-radius: 5px 0 0 5px;
+}
+
+.nav_top_header .nav_top_width .search_bar .btn button{
+    background: #c77afe;
+    border: 0;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    height: 40px;
+    width: 45px;
+    overflow: visible;
+    vertical-align: top;
+}
+
+.nav_top_header .nav_top_width .headphone{
 	display: block;
     float: right;
     width: 180px;
@@ -33,6 +89,69 @@ a{
     cursor: pointer;
 }
 
-.nav_top_width .headphone li{
-	list-style:none;
+.nav_top_width .headphone img,span{
+    vertical-align: middle;
+}
+
+.container .nav_title{
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    background-color: #f7f6fa;
+}
+
+.container .nav_title ul{
+    list-style: none;
+    width: 1000px;
+    overflow: hidden;
+    margin: 0 auto;
+    height: auto;
+}
+
+.container .nav_title ul li{   
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    float: left;
+    text-align: center;
+    padding: 4px 0;
+}
+
+.container .nav_title ul li a{
+    color: #000;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.container .nav_title ul li.active{
+    border-top: 4px solid #8a4fe4;
+    padding-top: 0;
+}
+
+.container .nav_title ul div{
+    width: 160px;
+    height: auto;
+    font-size: 10;
+    overflow: hidden;
+    float: right;
+    text-align: right;
+    vertical-align: middle;
+}
+
+.container .nav_title ul div a{
+    font-size: 12px;
+    color: #8a8a8b;
+    display: inline-block;
+    line-height: 50px;
+}
+
+.container .nav_title ul div .registed{
+    padding-left: 10px;
+}
+
+
+.container .index_bg_nav{
+    background: url(./img/bg_banner_read.jpg) no-repeat;
+
 }
