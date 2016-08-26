@@ -152,6 +152,106 @@ a{
 
 
 .container .index_bg_nav{
-    background: url(./img/bg_banner_read.jpg) no-repeat;
+    width: 100%;
+    height: 455px;
+    background: url(../img/bg_banner_read.jpg) no-repeat top center;
+}
+
+.container .index_bg_nav .conten_bg_nav{
+    width: 1000px;
+    height: 455px;
+    margin: 0 auto;
+}
+.container .index_bg_nav .conten_bg_nav .left_nav{
+    width: 510px;
+    margin-top: 105px;
+    vertical-align: bottom;
+    float: left;
+}
+.container .index_bg_nav .conten_bg_nav .right_nav{
+    float:right;
+    width: 490px;
+    height: 350px;
+    margin-top: 120px;
+    vertical-align: bottom;
+
+}
+
+.container .index_bg_nav .conten_bg_nav .right_nav .right_content{
+    width: 400px;
+    height: 350px;
+    float: right;
+    
+}
+
+.container .index_bg_nav .conten_bg_nav .right_nav .right_content .logo_title{
+    height: 60px;
+    width: 400px;
+}
+
+.container .index_bg_nav .conten_bg_nav .right_nav .right_content .logo_title i{
+    height: 40px;
+    width: 40px;
+    background: url(../img/stone_logo.png) no-repeat;
+}
+.container .index_bg_nav .conten_bg_nav .right_nav .right_content .logo_title i,span,em{
+    height: 40px;
+    display: inline-block;
+    vertical-align: middle;
+    color: white;
+}
+
+.container .index_bg_nav .conten_bg_nav .right_nav .right_content .logo_title span{
+    font-size:28;
+    margin: 0 2px 2px 0;
+}
+
+.container .index_bg_nav .conten_bg_nav .right_nav .right_content .logo_title em{
+    font-size: 16;
+    font-style: normal;
+    margin-top: 25px;
+}
+
+.container .index_bg_nav .conten_bg_nav .right_nav .right_content .desc_ch{
+    font-size: 40;
+    height: 60;
+    margin-top: 15px;
+}
+
+.container .index_bg_nav .conten_bg_nav .right_nav .right_content .desc_en{
+    font-size: 14;
+    height: 40;
+}
+
+.container .index_bg_nav .conten_bg_nav .right_nav .right_content .addr_details{
+    margin-top: 10px;
+}
+.container .index_bg_nav .conten_bg_nav .right_nav .right_content .addr_details img,.details{
+    float: left;    
+    color: white;
+    font-size: 14px;
+}
+
+.container .index_bg_nav .conten_bg_nav .right_nav .right_content .addr_details .details{
+    margin-left: 10px;
+}
+
+.container .index_bg_nav .conten_bg_nav .right_nav .right_content .addr_details .details div{
+    padding:3px;
+}
+
+.container .stone_hot{
+    width: 100%;
+    height: 600px;
+}
+
+.container .stone_hot .stone_hot_content{
+    width: 1000px;
+    height: 600px;
+    background: #fef;
+    margin: 0 auto;
+}
+
+.container .online_hot{
 
 }
