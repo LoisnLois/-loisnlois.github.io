@@ -3,6 +3,12 @@ body{
 	padding: 0;
 	overflow:hidden;
 }
+section{
+	overflow:hidden;
+}
+#head{
+	overflow:hidden;
+}
 
 div.wrapper{
 	width: 100%;
