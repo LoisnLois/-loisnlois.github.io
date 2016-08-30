@@ -3,12 +3,6 @@ body{
 	padding: 0;
 	overflow:hidden;
 }
-section{
-	overflow:hidden;
-}
-#head{
-	overflow:hidden;
-}
 
 div.wrapper{
 	width: 100%;
@@ -69,7 +63,7 @@ h1{
 	overflow:hidden;
 }
 #pre-nav{
-	width: 50%;
+
 	overflow:hidden;
 }
 #head-navi{
