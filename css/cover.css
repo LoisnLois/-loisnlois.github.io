@@ -112,7 +112,9 @@ body {
   background: rgba(0,0,0,.3);
 }
 
-
+.show{
+  text-align: center;
+}
 
 
 .mastfoot {
