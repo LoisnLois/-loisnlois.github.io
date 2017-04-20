@@ -6,7 +6,7 @@
 a,
 a:focus,
 a:hover {
-  color: #a3000b;
+  color: #52420b;
 }
 
 /* Custom default button */
@@ -24,7 +24,7 @@ html,
 body {
   height: 100%;
   /*background-color: #abc;*/
-  background: url('../img/bg.png');
+  background: url('../img/pure.jpg');
   background-repeat: no-repeat;
   background-size:100%;
 }
