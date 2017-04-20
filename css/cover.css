@@ -6,14 +6,14 @@
 a,
 a:focus,
 a:hover {
-  color: #52420b;
+  color: #fff;
 }
 
 /* Custom default button */
 .btn-default,
 .btn-default:hover,
 .btn-default:focus {
-  color: #52420b;
+  color: #fff;
   text-shadow: none; /* Prevent inheritance from `body` */
   background-color: #fff;
   border: 1px solid #fff;
@@ -29,7 +29,7 @@ body {
   background-size:100%;
 }
 body {
-  color: #52420b;
+  color: #fff;
   text-align: center;
   text-shadow: 0 1px 3px rgba(0,0,0,.5);
 }
@@ -109,7 +109,7 @@ body {
 
 .panel{
   text-align: left;
-  background: #abc;
+  background: #c7d2e8;
 }
 
 
