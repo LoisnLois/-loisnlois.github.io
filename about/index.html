@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>About Me - L君还在说之乎者也</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="description" content="L君还在说之乎者也的博客，专注web开发">
+    <meta name="keywords" content="关于L君还在说之乎者也">
+    <meta name="author" content="liaoyu">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="/static/css/global.css">
+</head>
+<body>
+
+<div id="wrapper">
+    <uu-nav curr="about"></uu-nav>
+
+    <div id="container">
+        <div class="panel">
+            <p class="title">关于我</p>
+            <ul class="item-list">
+                <li>L君生于1991年，2014年毕业于天津师范大学软件工程专业，喜欢折腾。</li>
+                <li>现阶段专注于web开发</li>
+                <li>空余时间喜欢阅读、找老电影、看墙外的世界。</li>
+            </ul>
+            <p class="title">联系我</p>
+            <ul class="item-list">
+                <li><a href="https://github.com/liaoyu">Github</a></li>
+                <li><a href="http://weibo.com/liaoyu753">Weibo</a></li>
+                <li>django.liao (at) gmail.com</li>
+            </ul>
+        </div>
+        <div id="disqus_thread" style="margin-top: 40px;"></div>
+    </div>
+
+    <uu-footer></uu-footer>
+</div>
+
+<script type="text/javascript" src="/static/vendor/vue.min.js"></script>
+<script type="text/javascript" src="/static/js/main.js"></script>
+<script type="text/javascript">
+(function() {
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    dsq.src = '//neatap.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();
+</script>
+</body>
+</html>
