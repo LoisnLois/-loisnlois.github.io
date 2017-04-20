@@ -1,49 +1,90 @@
 <!DOCTYPE html>
-<html>
-<head>
+<html lang="en">
+  <head>
     <meta charset="utf-8">
-    <title>About Me - L君还在说之乎者也</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-    <meta name="description" content="L君还在说之乎者也的博客，专注web开发">
-    <meta name="keywords" content="关于L君还在说之乎者也">
-    <meta name="author" content="liaoyu">
-    <link rel="shortcut icon" href="/favicon.ico">
-    <link rel="stylesheet" type="text/css" href="/static/css/global.css">
-</head>
-<body>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="./img/favicon.ico">
 
-<div id="wrapper">
-    <uu-nav curr="about"></uu-nav>
+    <title>LoisnLois's page</title>
 
-    <div id="container">
-        <div class="panel">
-            <p class="title">关于我</p>
-            <ul class="item-list">
-                <li>L君生于1991年，2014年毕业于天津师范大学软件工程专业，喜欢折腾。</li>
-                <li>现阶段专注于web开发</li>
-                <li>空余时间喜欢阅读、找老电影、看墙外的世界。</li>
-            </ul>
-            <p class="title">联系我</p>
-            <ul class="item-list">
-                <li><a href="https://github.com/liaoyu">Github</a></li>
-                <li><a href="http://weibo.com/liaoyu753">Weibo</a></li>
-                <li>django.liao (at) gmail.com</li>
-            </ul>
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <link href="./css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+    <link href="./css/cover.css" rel="stylesheet">
+
+    <!--[if lt IE 9]><script src="./js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="./js/ie-emulation-modes-warning.js"></script>
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="site-wrapper">
+
+      <div class="site-wrapper-inner">
+
+        <div class="cover-container">
+
+          <div class="masthead clearfix">
+            <div class="inner">
+              <a href="/" id="logo"><h3 class="masthead-brand">LoisnLois</h3></a>
+              <uu-nav></uu-nav>
+              
+            </div>
+          </div>
+
+          <div class="inner cover">
+            <p class="cover-heading">下面的代码示例是由我平时想着实现某个效果、练习某个好玩的技术，或者从别人那看到有意思的程序想自己实现一遍， 亦或是出于无聊打发时间来写写代码，自诩程序员的日常。
+</p>
+            
+            <div id="container">
+                <div class="panel">
+                    <p class="title">关于我</p>
+                    <ul class="item-list">
+                        <li>L君生于1991年，2014年毕业于天津师范大学软件工程专业，喜欢折腾。</li>
+                        <li>现阶段专注于web开发</li>
+                        <li>空余时间喜欢阅读、找老电影、看墙外的世界。</li>
+                    </ul>
+                    <p class="title">联系我</p>
+                    <ul class="item-list">
+                        <li>LH10278@163.com</li>
+                    </ul>
+                </div>
+                <div id="disqus_thread" style="margin-top: 40px;"></div>
+            </div>
+
+    
+          </div>
+
+          <div class="mastfoot">
+            <div class="inner">
+              <uu-footer></uu-footer>
+            </div>
+          </div>
+
         </div>
-        <div id="disqus_thread" style="margin-top: 40px;"></div>
+
+      </div>
+
     </div>
-
-    <uu-footer></uu-footer>
-</div>
-
-<script type="text/javascript" src="/static/vendor/vue.min.js"></script>
-<script type="text/javascript" src="/static/js/main.js"></script>
-<script type="text/javascript">
-(function() {
-    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-    dsq.src = '//neatap.disqus.com/embed.js';
-    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-})();
-</script>
-</body>
+    <script type="text/javascript" src="./js/vue.min.js"></script>
+    <script type="text/javascript" src="./js/main.js"></script>
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="./js/ie10-viewport-bug-workaround.js"></script>
+    
+    <script>
+      // cafe babe
+      var console = window.console || {};
+      console.log = console.log || function(){};
+      console.log("%c cafe babe", "color: green; font-size: large; font-style: italic;");
+    </script>
+  </body>
 </html>

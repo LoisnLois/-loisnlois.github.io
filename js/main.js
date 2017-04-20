@@ -126,8 +126,8 @@ Vue.component('uu-nav', {
   template:
     '<nav>'+
         '<ul class="nav masthead-nav" id="nav">'+
-            '<li :class="{ curr: isLab }"><a href="./lab/">Lab</a></li>' +
-            '<li :class="{ curr: isAbout }"><a href="./about/">About</a></li>' +
+            '<li :class="{ curr: isLab }"><a href="/lab/">Lab</a></li>' +
+            '<li :class="{ curr: isAbout }"><a href="/about/">About</a></li>' +
         '</ul>'+
     '</nav>',
   data: function () {
