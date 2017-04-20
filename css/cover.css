@@ -109,10 +109,12 @@ body {
 
 .panel{
   text-align: left;
-  background: rgba(0,0,0,.15);
+  background: rgba(0,0,0,.3);
 }
 
-
+#container{
+  color: rgba(54, 79, 113, .85);
+}
 
 
 .mastfoot {
