@@ -26,7 +26,11 @@ body {
   /*background-color: #abc;*/
   background: url('../img/pure.jpg');
   background-repeat: no-repeat;
-  background-size:100%;
+  background-size:100% 100%;
+  -moz-background-size:100% 100%; 
+  -o-background-size: 100% 100%;  
+  -webkit-background-size: 100% 100%; 
+  filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod='scale')"; 
 }
 body {
   color: #d4dce4;
